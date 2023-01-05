@@ -1,0 +1,16 @@
+springdoc:
+  packagesToScan: com.springboot.api
+  swagger-ui:
+    operationsSorter: alpha
+    tagsSorter: alpha
+  
+  defult-flat-paramObject: true
+
+
+#TRACE>DEBUG>INFO>WARN>ERROR>OFF
+logging:
+  level:
+    org.springframework: info
+    com.springboot: debug
+
+  
