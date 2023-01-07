@@ -1,31 +1,35 @@
 configuration:
-  property:
-    - name: LOG_PATH
-    - value: ./logs
+  properties:
+    property:
+      name: LOG_PATH
+      value: ./logs
 
 
   Appenders:
     Console:
       name: console
       target: SYSTEM_OUT
-      PatternLayout: [%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] [%thread] %logger %msg%n
-      filter:
+      PatternLayout: 
+        Pattern: "[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] [%thread] %logger %msg%n"
+      Filters:
         ThresholdFilter:
           level: INFO
 
     RollingFile:
       name: INFO_LOG
-      filter:
+      Filters:
         ThresholdFilter:
           level: INFO
-      append: true #default true
-      policy: TimeBasedTriggeringPolicy
-      strategy : 
-        DefaultRolloverStrategy:
-          max: 30
-      fileName: ${LOG_PATH}/info.log
-      filePattern: ${LOG_PATH}/info_${type}.%d{yyyy-MM-dd}.gz
-      layout: [%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] [%thread] %logger %msg%n
+      append: true 
+      policies:
+        TimeBasedTriggeringPolicy:
+          interval: 24
+      DefaultRolloverStrategy:
+        max: 30
+      fileName: "${LOG_PATH}/info.log"
+      filePattern: "${LOG_PATH}/info_${type}.%d{yyyy-MM-dd}.gz"
+      PatternLayout:
+        pattern: "[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%-5level] [%thread] %logger %msg%n"
       
   Loggers:
     Root:
