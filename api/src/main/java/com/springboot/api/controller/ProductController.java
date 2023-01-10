@@ -16,6 +16,7 @@ import com.springboot.api.dto.ProductResponseDTO;
 import com.springboot.api.service.ProductService;
 
 
+import io.swagger.v3.oas.annotations.Parameter;
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -25,7 +26,8 @@ public class ProductController {
     private final ProductService productService;
 
     @GetMapping
-    public ResponseEntity<ProductResponseDTO> getProduct(Long number){
+    
+    public ResponseEntity<ProductResponseDTO> getProduct(@Parameter(name = "number") Long number){
         ProductResponseDTO productResponseDTO = productService.getProduct(number);
 
         return ResponseEntity.status(HttpStatus.OK).body(productResponseDTO);
@@ -50,7 +52,7 @@ public class ProductController {
     }
 
     @DeleteMapping
-    public ResponseEntity<String> deleteProduct(Long number) throws Exception {
+    public ResponseEntity<String> deleteProduct( @Parameter(name = "number") Long number) throws Exception {
         productService.deleteProduct(number);
         return ResponseEntity.status(HttpStatus.OK).body("success");
     }
