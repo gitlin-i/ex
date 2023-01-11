@@ -3938,3 +3938,239 @@ java.lang.Exception: null
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.4.jar:10.1.4]
 	at java.lang.Thread.run(Unknown Source) ~[?:?]
+[2023-01-11 11:26:50.979] [INFO ] [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.springboot.api.repository.ProductRepositoryTest2]: ProductRepositoryTest2 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2023-01-11 11:26:51.168] [INFO ] [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.springboot.api.ApiApplication for test class com.springboot.api.repository.ProductRepositoryTest2
+[2023-01-11 11:26:51.700] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 8.0.0.Final
+[2023-01-11 11:26:51.734] [INFO ] [main] com.springboot.api.repository.ProductRepositoryTest2 Starting ProductRepositoryTest2 using Java 17.0.5 with PID 16772 (started by pc in C:\Users\pc\Desktop\study2\ex1\api)
+[2023-01-11 11:26:51.738] [INFO ] [main] com.springboot.api.repository.ProductRepositoryTest2 No active profile set, falling back to 1 default profile: "default"
+[2023-01-11 11:26:52.808] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-01-11 11:26:52.886] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+[2023-01-11 11:26:53.467] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-01-11 11:26:53.560] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 6.1.6.Final
+[2023-01-11 11:26:53.814] [WARN ] [main] org.hibernate.orm.deprecation HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[2023-01-11 11:26:54.062] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-01-11 11:26:54.174] [INFO ] [main] com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection org.mariadb.jdbc.Connection@38848217
+[2023-01-11 11:26:54.176] [INFO ] [main] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-01-11 11:26:54.220] [INFO ] [main] SQL dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+[2023-01-11 11:26:55.120] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-01-11 11:26:55.131] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 11:26:55.675] [WARN ] [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-01-11 11:26:57.027] [INFO ] [main] com.springboot.api.repository.ProductRepositoryTest2 Started ProductRepositoryTest2 in 5.641 seconds (process running for 8.064)
+[2023-01-11 11:26:57.456] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 11:26:57.459] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-01-11 11:26:57.463] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2023-01-11 11:27:16.266] [INFO ] [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.springboot.api.repository.ProductRepositoryTestByH2]: ProductRepositoryTestByH2 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2023-01-11 11:27:16.407] [INFO ] [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.springboot.api.ApiApplication for test class com.springboot.api.repository.ProductRepositoryTestByH2
+[2023-01-11 11:27:16.869] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 8.0.0.Final
+[2023-01-11 11:27:16.924] [INFO ] [main] com.springboot.api.repository.ProductRepositoryTestByH2 Starting ProductRepositoryTestByH2 using Java 17.0.5 with PID 12844 (started by pc in C:\Users\pc\Desktop\study2\ex1\api)
+[2023-01-11 11:27:16.929] [INFO ] [main] com.springboot.api.repository.ProductRepositoryTestByH2 No active profile set, falling back to 1 default profile: "default"
+[2023-01-11 11:27:17.342] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-01-11 11:27:17.412] [INFO ] [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+[2023-01-11 11:27:17.468] [INFO ] [main] org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor Replacing 'dataSource' DataSource bean with embedded version
+[2023-01-11 11:27:17.701] [INFO ] [main] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory Starting embedded database: url='jdbc:h2:mem:fac60b37-9011-4e31-9a18-b3e846ab1bcd;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+[2023-01-11 11:27:18.057] [INFO ] [main] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-01-11 11:27:18.132] [INFO ] [main] org.hibernate.Version HHH000412: Hibernate ORM core version 6.1.6.Final
+[2023-01-11 11:27:18.361] [WARN ] [main] org.hibernate.orm.deprecation HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[2023-01-11 11:27:18.560] [INFO ] [main] SQL dialect HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2023-01-11 11:27:19.382] [INFO ] [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-01-11 11:27:19.395] [INFO ] [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 11:27:19.725] [INFO ] [main] com.springboot.api.repository.ProductRepositoryTestByH2 Started ProductRepositoryTestByH2 in 3.233 seconds (process running for 4.85)
+[2023-01-11 11:27:20.013] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 12:19:36.179] [INFO ] [Test worker] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.springboot.api.controller.ProductControllerTest]: ProductControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2023-01-11 12:19:36.487] [INFO ] [Test worker] org.springframework.boot.test.context.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.springboot.api.ApiApplication for test class com.springboot.api.controller.ProductControllerTest
+[2023-01-11 12:19:37.342] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 8.0.0.Final
+[2023-01-11 12:19:37.423] [INFO ] [Test worker] com.springboot.api.controller.ProductControllerTest Starting ProductControllerTest using Java 17.0.5 with PID 13520 (started by pc in C:\Users\pc\Desktop\study2\ex1\api)
+[2023-01-11 12:19:37.428] [INFO ] [Test worker] com.springboot.api.controller.ProductControllerTest No active profile set, falling back to 1 default profile: "default"
+[2023-01-11 12:19:40.538] [INFO ] [Test worker] org.springframework.boot.test.mock.web.SpringBootMockServletContext Initializing Spring TestDispatcherServlet ''
+[2023-01-11 12:19:40.539] [INFO ] [Test worker] org.springframework.test.web.servlet.TestDispatcherServlet Initializing Servlet ''
+[2023-01-11 12:19:40.542] [INFO ] [Test worker] org.springframework.test.web.servlet.TestDispatcherServlet Completed initialization in 2 ms
+[2023-01-11 12:19:40.575] [INFO ] [Test worker] com.springboot.api.controller.ProductControllerTest Started ProductControllerTest in 3.858 seconds (process running for 7.582)
+[2023-01-11 12:19:41.046] [INFO ] [Test worker] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.springboot.api.repository.ProductRepositoryTest]: ProductRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2023-01-11 12:19:41.062] [INFO ] [Test worker] org.springframework.boot.test.context.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.springboot.api.ApiApplication for test class com.springboot.api.repository.ProductRepositoryTest
+[2023-01-11 12:19:41.108] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTest Starting ProductRepositoryTest using Java 17.0.5 with PID 13520 (started by pc in C:\Users\pc\Desktop\study2\ex1\api)
+[2023-01-11 12:19:41.111] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTest No active profile set, falling back to 1 default profile: "default"
+[2023-01-11 12:19:41.297] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-01-11 12:19:41.372] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interfaces.
+[2023-01-11 12:19:41.637] [INFO ] [Test worker] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-01-11 12:19:41.724] [INFO ] [Test worker] org.hibernate.Version HHH000412: Hibernate ORM core version 6.1.6.Final
+[2023-01-11 12:19:41.784] [WARN ] [Test worker] org.hibernate.orm.deprecation HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[2023-01-11 12:19:41.990] [INFO ] [Test worker] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-01-11 12:19:42.114] [INFO ] [Test worker] com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6e0ae02d
+[2023-01-11 12:19:42.117] [INFO ] [Test worker] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-01-11 12:19:42.212] [INFO ] [Test worker] SQL dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+[2023-01-11 12:19:43.361] [INFO ] [Test worker] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-01-11 12:19:43.383] [INFO ] [Test worker] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 12:19:43.788] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTest Started ProductRepositoryTest in 2.722 seconds (process running for 10.796)
+[2023-01-11 12:19:43.926] [INFO ] [Test worker] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.springboot.api.repository.ProductRepositoryTest2]: ProductRepositoryTest2 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2023-01-11 12:19:43.930] [INFO ] [Test worker] org.springframework.boot.test.context.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.springboot.api.ApiApplication for test class com.springboot.api.repository.ProductRepositoryTest2
+[2023-01-11 12:19:43.963] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTest2 Starting ProductRepositoryTest2 using Java 17.0.5 with PID 13520 (started by pc in C:\Users\pc\Desktop\study2\ex1\api)
+[2023-01-11 12:19:43.964] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTest2 No active profile set, falling back to 1 default profile: "default"
+[2023-01-11 12:19:44.401] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-01-11 12:19:44.412] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+[2023-01-11 12:19:44.604] [INFO ] [Test worker] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-01-11 12:19:44.608] [WARN ] [Test worker] org.hibernate.orm.deprecation HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[2023-01-11 12:19:44.613] [INFO ] [Test worker] com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+[2023-01-11 12:19:44.617] [INFO ] [Test worker] com.zaxxer.hikari.pool.HikariPool HikariPool-2 - Added connection org.mariadb.jdbc.Connection@72292f
+[2023-01-11 12:19:44.617] [INFO ] [Test worker] com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+[2023-01-11 12:19:44.618] [INFO ] [Test worker] SQL dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+[2023-01-11 12:19:44.680] [INFO ] [Test worker] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-01-11 12:19:44.680] [INFO ] [Test worker] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 12:19:44.931] [WARN ] [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-01-11 12:19:45.704] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTest2 Started ProductRepositoryTest2 in 1.767 seconds (process running for 12.712)
+[2023-01-11 12:19:45.851] [INFO ] [Test worker] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.springboot.api.repository.ProductRepositoryTestByH2]: ProductRepositoryTestByH2 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2023-01-11 12:19:45.857] [INFO ] [Test worker] org.springframework.boot.test.context.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.springboot.api.ApiApplication for test class com.springboot.api.repository.ProductRepositoryTestByH2
+[2023-01-11 12:19:45.885] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTestByH2 Starting ProductRepositoryTestByH2 using Java 17.0.5 with PID 13520 (started by pc in C:\Users\pc\Desktop\study2\ex1\api)
+[2023-01-11 12:19:45.886] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTestByH2 No active profile set, falling back to 1 default profile: "default"
+[2023-01-11 12:19:45.982] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-01-11 12:19:45.994] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+[2023-01-11 12:19:46.007] [INFO ] [Test worker] org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor Replacing 'dataSource' DataSource bean with embedded version
+[2023-01-11 12:19:46.036] [INFO ] [Test worker] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory Starting embedded database: url='jdbc:h2:mem:726368ca-2cac-427d-af7b-ffa9b513c96b;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+[2023-01-11 12:19:46.391] [INFO ] [Test worker] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-01-11 12:19:46.395] [WARN ] [Test worker] org.hibernate.orm.deprecation HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[2023-01-11 12:19:46.409] [INFO ] [Test worker] SQL dialect HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2023-01-11 12:19:46.495] [INFO ] [Test worker] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-01-11 12:19:46.495] [INFO ] [Test worker] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 12:19:46.534] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTestByH2 Started ProductRepositoryTestByH2 in 0.675 seconds (process running for 13.542)
+[2023-01-11 12:19:46.674] [INFO ] [Test worker] com.springboot.api.service.ProductServiceImpl [getProduct] input number : 123
+[2023-01-11 12:19:46.675] [INFO ] [Test worker] com.springboot.api.service.ProductServiceImpl [getProduct] product number : 123, name : íŽœ
+[2023-01-11 12:19:46.682] [INFO ] [Test worker] com.springboot.api.service.ProductServiceImpl [saveProduct] productDTO : ProductDTO(name=íŽœ, price=1000, stock=1234)
+[2023-01-11 12:19:46.683] [INFO ] [Test worker] com.springboot.api.service.ProductServiceImpl [saveProduct] savedProduct : Product(number=null, price=1000, stock=1234, createdAt=null, updateAt=null)
+[2023-01-11 12:19:46.740] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 12:19:46.937] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-01-11 12:19:46.942] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2023-01-11 12:19:46.944] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 12:19:46.945] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown initiated...
+[2023-01-11 12:19:46.948] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown completed.
+[2023-01-11 12:19:46.949] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 13:01:17.034] [INFO ] [Test worker] com.springboot.api.service.ProductServiceImpl [getProduct] input number : 123
+[2023-01-11 13:01:17.052] [INFO ] [Test worker] com.springboot.api.service.ProductServiceImpl [getProduct] product number : 123, name : Ææ
+[2023-01-11 13:01:17.108] [INFO ] [Test worker] com.springboot.api.service.ProductServiceImpl [saveProduct] productDTO : ProductDTO(name=Ææ, price=1000, stock=1234)
+[2023-01-11 13:01:17.115] [INFO ] [Test worker] com.springboot.api.service.ProductServiceImpl [saveProduct] savedProduct : Product(number=null, price=1000, stock=1234, createdAt=null, updateAt=null)
+[2023-01-11 13:01:17.392] [INFO ] [Test worker] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.springboot.api.controller.ProductControllerTest]: ProductControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2023-01-11 13:01:17.691] [INFO ] [Test worker] org.springframework.boot.test.context.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.springboot.api.ApiApplication for test class com.springboot.api.controller.ProductControllerTest
+[2023-01-11 13:01:18.385] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 8.0.0.Final
+[2023-01-11 13:01:18.482] [INFO ] [Test worker] com.springboot.api.controller.ProductControllerTest Starting ProductControllerTest using Java 17.0.5 with PID 11424 (started by pc in C:\Users\pc\Desktop\study2\ex1\api)
+[2023-01-11 13:01:18.487] [INFO ] [Test worker] com.springboot.api.controller.ProductControllerTest No active profile set, falling back to 1 default profile: "default"
+[2023-01-11 13:01:20.896] [INFO ] [Test worker] org.springframework.boot.test.mock.web.SpringBootMockServletContext Initializing Spring TestDispatcherServlet ''
+[2023-01-11 13:01:20.897] [INFO ] [Test worker] org.springframework.test.web.servlet.TestDispatcherServlet Initializing Servlet ''
+[2023-01-11 13:01:20.901] [INFO ] [Test worker] org.springframework.test.web.servlet.TestDispatcherServlet Completed initialization in 2 ms
+[2023-01-11 13:01:20.928] [INFO ] [Test worker] com.springboot.api.controller.ProductControllerTest Started ProductControllerTest in 3.115 seconds (process running for 10.412)
+[2023-01-11 13:01:21.298] [INFO ] [Test worker] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.springboot.api.repository.ProductRepositoryTest]: ProductRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2023-01-11 13:01:21.308] [INFO ] [Test worker] org.springframework.boot.test.context.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.springboot.api.ApiApplication for test class com.springboot.api.repository.ProductRepositoryTest
+[2023-01-11 13:01:21.346] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTest Starting ProductRepositoryTest using Java 17.0.5 with PID 11424 (started by pc in C:\Users\pc\Desktop\study2\ex1\api)
+[2023-01-11 13:01:21.347] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTest No active profile set, falling back to 1 default profile: "default"
+[2023-01-11 13:01:21.558] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-01-11 13:01:21.620] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+[2023-01-11 13:01:21.908] [INFO ] [Test worker] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-01-11 13:01:22.023] [INFO ] [Test worker] org.hibernate.Version HHH000412: Hibernate ORM core version 6.1.6.Final
+[2023-01-11 13:01:22.095] [WARN ] [Test worker] org.hibernate.orm.deprecation HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[2023-01-11 13:01:22.314] [INFO ] [Test worker] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-01-11 13:01:22.447] [INFO ] [Test worker] com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection org.mariadb.jdbc.Connection@22f04ab3
+[2023-01-11 13:01:22.450] [INFO ] [Test worker] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-01-11 13:01:22.540] [INFO ] [Test worker] SQL dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+[2023-01-11 13:01:23.771] [INFO ] [Test worker] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-01-11 13:01:23.793] [INFO ] [Test worker] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 13:01:24.244] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTest Started ProductRepositoryTest in 2.932 seconds (process running for 13.728)
+[2023-01-11 13:01:24.368] [INFO ] [Test worker] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.springboot.api.repository.ProductRepositoryTest2]: ProductRepositoryTest2 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2023-01-11 13:01:24.370] [INFO ] [Test worker] org.springframework.boot.test.context.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.springboot.api.ApiApplication for test class com.springboot.api.repository.ProductRepositoryTest2
+[2023-01-11 13:01:24.400] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTest2 Starting ProductRepositoryTest2 using Java 17.0.5 with PID 11424 (started by pc in C:\Users\pc\Desktop\study2\ex1\api)
+[2023-01-11 13:01:24.402] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTest2 No active profile set, falling back to 1 default profile: "default"
+[2023-01-11 13:01:24.850] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-01-11 13:01:24.860] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+[2023-01-11 13:01:25.029] [INFO ] [Test worker] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-01-11 13:01:25.034] [WARN ] [Test worker] org.hibernate.orm.deprecation HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[2023-01-11 13:01:25.038] [INFO ] [Test worker] com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+[2023-01-11 13:01:25.043] [INFO ] [Test worker] com.zaxxer.hikari.pool.HikariPool HikariPool-2 - Added connection org.mariadb.jdbc.Connection@611e919b
+[2023-01-11 13:01:25.043] [INFO ] [Test worker] com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+[2023-01-11 13:01:25.044] [INFO ] [Test worker] SQL dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+[2023-01-11 13:01:25.087] [INFO ] [Test worker] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-01-11 13:01:25.088] [INFO ] [Test worker] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 13:01:25.351] [WARN ] [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-01-11 13:01:26.067] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTest2 Started ProductRepositoryTest2 in 1.69 seconds (process running for 15.552)
+[2023-01-11 13:01:26.194] [INFO ] [Test worker] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.springboot.api.repository.ProductRepositoryTestByH2]: ProductRepositoryTestByH2 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2023-01-11 13:01:26.199] [INFO ] [Test worker] org.springframework.boot.test.context.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.springboot.api.ApiApplication for test class com.springboot.api.repository.ProductRepositoryTestByH2
+[2023-01-11 13:01:26.226] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTestByH2 Starting ProductRepositoryTestByH2 using Java 17.0.5 with PID 11424 (started by pc in C:\Users\pc\Desktop\study2\ex1\api)
+[2023-01-11 13:01:26.227] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTestByH2 No active profile set, falling back to 1 default profile: "default"
+[2023-01-11 13:01:26.305] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-01-11 13:01:26.314] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+[2023-01-11 13:01:26.323] [INFO ] [Test worker] org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor Replacing 'dataSource' DataSource bean with embedded version
+[2023-01-11 13:01:26.352] [INFO ] [Test worker] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory Starting embedded database: url='jdbc:h2:mem:f9b36db8-0b4f-4d3e-a704-f8b680d61749;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+[2023-01-11 13:01:26.719] [INFO ] [Test worker] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-01-11 13:01:26.723] [WARN ] [Test worker] org.hibernate.orm.deprecation HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[2023-01-11 13:01:26.735] [INFO ] [Test worker] SQL dialect HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2023-01-11 13:01:26.821] [INFO ] [Test worker] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-01-11 13:01:26.821] [INFO ] [Test worker] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 13:01:26.854] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTestByH2 Started ProductRepositoryTestByH2 in 0.651 seconds (process running for 16.339)
+[2023-01-11 13:01:26.927] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 13:01:27.123] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-01-11 13:01:27.127] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2023-01-11 13:01:27.129] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 13:01:27.129] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown initiated...
+[2023-01-11 13:01:27.132] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown completed.
+[2023-01-11 13:01:27.132] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 13:02:34.292] [INFO ] [Test worker] com.springboot.api.service.ProductServiceImpl [getProduct] input number : 123
+[2023-01-11 13:02:34.311] [INFO ] [Test worker] com.springboot.api.service.ProductServiceImpl [getProduct] product number : 123, name : Ææ
+[2023-01-11 13:02:34.351] [INFO ] [Test worker] com.springboot.api.service.ProductServiceImpl [saveProduct] productDTO : ProductDTO(name=Ææ, price=1000, stock=1234)
+[2023-01-11 13:02:34.353] [INFO ] [Test worker] com.springboot.api.service.ProductServiceImpl [saveProduct] savedProduct : Product(number=null, price=1000, stock=1234, createdAt=null, updateAt=null)
+[2023-01-11 13:02:34.580] [INFO ] [Test worker] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.springboot.api.controller.ProductControllerTest]: ProductControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2023-01-11 13:02:34.828] [INFO ] [Test worker] org.springframework.boot.test.context.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.springboot.api.ApiApplication for test class com.springboot.api.controller.ProductControllerTest
+[2023-01-11 13:02:35.512] [INFO ] [background-preinit] org.hibernate.validator.internal.util.Version HV000001: Hibernate Validator 8.0.0.Final
+[2023-01-11 13:02:35.573] [INFO ] [Test worker] com.springboot.api.controller.ProductControllerTest Starting ProductControllerTest using Java 17.0.5 with PID 14704 (started by pc in C:\Users\pc\Desktop\study2\ex1\api)
+[2023-01-11 13:02:35.577] [INFO ] [Test worker] com.springboot.api.controller.ProductControllerTest No active profile set, falling back to 1 default profile: "default"
+[2023-01-11 13:02:37.586] [INFO ] [Test worker] org.springframework.boot.test.mock.web.SpringBootMockServletContext Initializing Spring TestDispatcherServlet ''
+[2023-01-11 13:02:37.586] [INFO ] [Test worker] org.springframework.test.web.servlet.TestDispatcherServlet Initializing Servlet ''
+[2023-01-11 13:02:37.590] [INFO ] [Test worker] org.springframework.test.web.servlet.TestDispatcherServlet Completed initialization in 2 ms
+[2023-01-11 13:02:37.619] [INFO ] [Test worker] com.springboot.api.controller.ProductControllerTest Started ProductControllerTest in 2.662 seconds (process running for 7.148)
+[2023-01-11 13:02:37.996] [INFO ] [Test worker] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.springboot.api.repository.ProductRepositoryTest]: ProductRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2023-01-11 13:02:38.007] [INFO ] [Test worker] org.springframework.boot.test.context.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.springboot.api.ApiApplication for test class com.springboot.api.repository.ProductRepositoryTest
+[2023-01-11 13:02:38.041] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTest Starting ProductRepositoryTest using Java 17.0.5 with PID 14704 (started by pc in C:\Users\pc\Desktop\study2\ex1\api)
+[2023-01-11 13:02:38.042] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTest No active profile set, falling back to 1 default profile: "default"
+[2023-01-11 13:02:38.240] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-01-11 13:02:38.299] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+[2023-01-11 13:02:38.588] [INFO ] [Test worker] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-01-11 13:02:38.685] [INFO ] [Test worker] org.hibernate.Version HHH000412: Hibernate ORM core version 6.1.6.Final
+[2023-01-11 13:02:38.752] [WARN ] [Test worker] org.hibernate.orm.deprecation HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[2023-01-11 13:02:38.986] [INFO ] [Test worker] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Starting...
+[2023-01-11 13:02:39.111] [INFO ] [Test worker] com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Added connection org.mariadb.jdbc.Connection@7fb8eff8
+[2023-01-11 13:02:39.115] [INFO ] [Test worker] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Start completed.
+[2023-01-11 13:02:39.205] [INFO ] [Test worker] SQL dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+[2023-01-11 13:02:40.372] [INFO ] [Test worker] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-01-11 13:02:40.393] [INFO ] [Test worker] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 13:02:40.787] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTest Started ProductRepositoryTest in 2.777 seconds (process running for 10.316)
+[2023-01-11 13:02:40.916] [INFO ] [Test worker] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.springboot.api.repository.ProductRepositoryTest2]: ProductRepositoryTest2 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2023-01-11 13:02:40.919] [INFO ] [Test worker] org.springframework.boot.test.context.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.springboot.api.ApiApplication for test class com.springboot.api.repository.ProductRepositoryTest2
+[2023-01-11 13:02:40.952] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTest2 Starting ProductRepositoryTest2 using Java 17.0.5 with PID 14704 (started by pc in C:\Users\pc\Desktop\study2\ex1\api)
+[2023-01-11 13:02:40.953] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTest2 No active profile set, falling back to 1 default profile: "default"
+[2023-01-11 13:02:41.351] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-01-11 13:02:41.360] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+[2023-01-11 13:02:41.531] [INFO ] [Test worker] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-01-11 13:02:41.535] [WARN ] [Test worker] org.hibernate.orm.deprecation HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[2023-01-11 13:02:41.540] [INFO ] [Test worker] com.zaxxer.hikari.HikariDataSource HikariPool-2 - Starting...
+[2023-01-11 13:02:41.544] [INFO ] [Test worker] com.zaxxer.hikari.pool.HikariPool HikariPool-2 - Added connection org.mariadb.jdbc.Connection@368ac303
+[2023-01-11 13:02:41.544] [INFO ] [Test worker] com.zaxxer.hikari.HikariDataSource HikariPool-2 - Start completed.
+[2023-01-11 13:02:41.545] [INFO ] [Test worker] SQL dialect HHH000400: Using dialect: org.hibernate.dialect.MariaDBDialect
+[2023-01-11 13:02:41.621] [INFO ] [Test worker] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-01-11 13:02:41.621] [INFO ] [Test worker] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 13:02:41.885] [WARN ] [Test worker] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-01-11 13:02:42.559] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTest2 Started ProductRepositoryTest2 in 1.635 seconds (process running for 12.089)
+[2023-01-11 13:02:42.733] [INFO ] [Test worker] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils Could not detect default configuration classes for test class [com.springboot.api.repository.ProductRepositoryTestByH2]: ProductRepositoryTestByH2 does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2023-01-11 13:02:42.739] [INFO ] [Test worker] org.springframework.boot.test.context.SpringBootTestContextBootstrapper Found @SpringBootConfiguration com.springboot.api.ApiApplication for test class com.springboot.api.repository.ProductRepositoryTestByH2
+[2023-01-11 13:02:42.766] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTestByH2 Starting ProductRepositoryTestByH2 using Java 17.0.5 with PID 14704 (started by pc in C:\Users\pc\Desktop\study2\ex1\api)
+[2023-01-11 13:02:42.766] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTestByH2 No active profile set, falling back to 1 default profile: "default"
+[2023-01-11 13:02:42.831] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-01-11 13:02:42.839] [INFO ] [Test worker] org.springframework.data.repository.config.RepositoryConfigurationDelegate Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+[2023-01-11 13:02:42.849] [INFO ] [Test worker] org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor Replacing 'dataSource' DataSource bean with embedded version
+[2023-01-11 13:02:42.873] [INFO ] [Test worker] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory Starting embedded database: url='jdbc:h2:mem:5bb164a4-c90f-497c-a789-43ee4c9f4590;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+[2023-01-11 13:02:43.225] [INFO ] [Test worker] org.hibernate.jpa.internal.util.LogHelper HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-01-11 13:02:43.229] [WARN ] [Test worker] org.hibernate.orm.deprecation HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[2023-01-11 13:02:43.241] [INFO ] [Test worker] SQL dialect HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2023-01-11 13:02:43.325] [INFO ] [Test worker] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-01-11 13:02:43.325] [INFO ] [Test worker] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 13:02:43.361] [INFO ] [Test worker] com.springboot.api.repository.ProductRepositoryTestByH2 Started ProductRepositoryTestByH2 in 0.619 seconds (process running for 12.891)
+[2023-01-11 13:02:43.431] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 13:02:43.667] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown initiated...
+[2023-01-11 13:02:43.670] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-1 - Shutdown completed.
+[2023-01-11 13:02:43.672] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'
+[2023-01-11 13:02:43.673] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown initiated...
+[2023-01-11 13:02:43.678] [INFO ] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource HikariPool-2 - Shutdown completed.
+[2023-01-11 13:02:43.680] [INFO ] [SpringApplicationShutdownHook] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean Closing JPA EntityManagerFactory for persistence unit 'default'

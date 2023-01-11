@@ -3,13 +3,21 @@ package com.springboot.api.domain;
 import java.time.LocalDateTime;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
-@Getter
-@Setter
+
+
 @Entity
 @Table(name = "product")
+@Builder
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString(exclude = "name")
 public class Product {
 
     @Id
