@@ -18,7 +18,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString(exclude = "name")
-public class Product {
+public class Product extends BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -32,9 +32,5 @@ public class Product {
 
     @Column(nullable = false)
     private Integer stock;
-
-    private LocalDateTime createdAt;
-    private LocalDateTime updateAt;
-
     
 }
